@@ -39,6 +39,7 @@ cat /etc/* 2>/home/zolotorev/err >/home/zolotorev/file2
 ### Решение 3.
 
 ls -l /etc | cut -d ' ' -f 1 | sort | uniq -c | grep -v total
+
 s -l /etc | cut -d ' ' -f 1 | sort | uniq -c | grep -v total | wc -l
 
 <img src = "img/cut.png" width = 100%>
